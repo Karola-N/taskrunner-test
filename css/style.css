@@ -1,0 +1,79 @@
+body {
+  text-align: center;
+}
+
+body p {
+  color: #666666;
+}
+
+.carousel-inner,
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel-item .carousel-caption {
+  top: 5%;
+  left: 10%;
+  right: 10%;
+  bottom: auto;
+}
+
+.carousel-item .btn {
+  border-color: orange;
+  background-color: orange;
+  font-size: 16px;
+}
+
+.carousel-item .navbar {
+  background-color: transparent;
+}
+
+.carousel-item .navbar .navbar-brand {
+  font-size: 28px;
+  color: orange;
+  font-family: 'Pacifico', cursive;
+  text-align: left;
+}
+
+.carousel-item .navbar .nav-link {
+  color: #ffffff;
+}
+
+.carousel-item .navbar .navbar-toggler {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.carousel-item .navbar .navbar-toggler .navbar-toggler-icon {
+  color: #ffffff;
+}
+
+.carousel-item h1 {
+  line-height: 2;
+}
+
+.carousel-item p {
+  margin-bottom: 1px;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.carousel-item li {
+  position: relative;
+  display: inline-block;
+}
+
+.navbar-toggler:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.dropdown-menu {
+  border: hidden;
+}
+/*# sourceMappingURL=style.css.map */
