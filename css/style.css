@@ -77,6 +77,29 @@ body p {
   border: hidden;
 }
 
+.card {
+  border: none;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card i {
+  font-size: 30px;
+  text-align: center;
+  color: orange;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  border: solid;
+  border-color: orange;
+}
+
 .footer {
   font-size: 14px;
 }
