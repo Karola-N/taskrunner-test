@@ -26,6 +26,9 @@ body {
         background-color: orange;
         font-size: 16px;
     }
+    .btn:hover {
+        transform: scale(1.2, 1.2);
+    }
     .navbar {
         background-color: transparent;
         .navbar-brand {
