@@ -76,4 +76,32 @@ body p {
 .dropdown-menu {
   border: hidden;
 }
+
+.footer {
+  font-size: 14px;
+}
+
+.footer ul {
+  margin-bottom: 0;
+}
+
+.footer li {
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+}
+
+.footer i {
+  font-size: 20px;
+  color: #ffffff;
+  background: orange;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+}
+
+.footer i:hover {
+  transform: scale(1.2, 1.2);
+}
 /*# sourceMappingURL=style.css.map */

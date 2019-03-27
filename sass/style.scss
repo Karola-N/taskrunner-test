@@ -67,3 +67,27 @@ body {
 .dropdown-menu {
     border: hidden;
 }
+
+.footer {
+    font-size: 14px;
+    ul {
+        margin-bottom: 0;
+    }
+    li {
+        position: relative;
+        display: inline-block;
+        font-size: 0;
+    }
+    i {
+        font-size: 20px;
+        color: #ffffff;
+        background: orange;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        line-height: 40px;
+    }
+    i:hover {
+        transform: scale(1.2, 1.2);
+    }
+}
