@@ -104,6 +104,15 @@ body p {
   border-color: orange;
 }
 
+.portfolio {
+  background-color: #e5e5e5;
+}
+
+.portfolio .card,
+.services .card {
+  height: 100%;
+}
+
 .footer {
   font-size: 14px;
 }
